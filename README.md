@@ -4,25 +4,25 @@ This repository contains datasets collected using sensor devices or microphones 
 
 Unified Parkinson's Disease Rating Scale (UPDRS)
 
-|Dataset          |Symptom            |Device           |Sensor         |Device location                  |Subjects        |
-|-----------------|-------------------|-----------------|---------------|---------------------------------|----------------|
-|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|MC10 BioStamp RC|Accelerometer|Trunk, left thigh, right thigh, left forearm, right forearm| 17 HC and 17 PD|
-|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                    |FoG    |                |             |                                                           |                | 
-|REMPARK- nota: tem que se pedir acesso ao dataset                          |       |                |             |                                                           |                |
-|PhysioNet                         |       |                |             |                                                           |                |
-|Parkinsons Data Set (Oxford)      |       |                |             |                                                           |                |
-|Parkinsons Telemonitoring         |       |                |             |                                                           |                |
-|Parkinson Speech data set         |       |                |             |                                                           |                |
-|Parkinson's Disease Classification|       |                |             |                                                           |                |
-|mPower                            |       |                |             |                                                           |                |
-|MJFF Levodopa Response Study      |       |                |             |                                                           |                |
-|CuPID                             |       |                |             |                                                           |                |
+|Dataset          |Symptom            |Sensor         |Device location                  |Subjects        |
+|-----------------|-------------------|---------------|---------------------------------|----------------|
+|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|Accelerometer|Trunk, left thigh, right thigh, left forearm, right forearm| 17 HC and 17 PD|
+|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                    |Freezing of Gait (FoG)               |Accelerometer|Hip, ankle, and upper leg                                      |10 PD           | 
+|REMPARK- nota: tem que se pedir acesso ao dataset                          |       |             |                                                           |                |
+|PhysioNet                         |       |             |                                                           |                |
+|Parkinsons Data Set (Oxford)      |       |             |                                                           |                |
+|Parkinsons Telemonitoring         |       |             |                                                           |                |
+|Parkinson Speech data set         |       |             |                                                           |                |
+|Parkinson's Disease Classification|       |             |                                                           |                |
+|mPower                            |       |             |                                                           |                |
+|MJFF Levodopa Response Study      |       |             |                                                           |                |
+|CuPID                             |       |             |                                                           |                |
 
-|Dataset                                                                                                                                       |Year of creation|Language|Size    |File format(s)|Availability|
-|----------------------------------------------------------------------------------------------------------------------------------------------|----------------|--------|--------|--------------|------------|
-|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021            |English |10.76 GB|.csv          |Public      |
-|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |                |        |    |              | 
-|REMPARK- nota: tem que se pedir acesso ao dataset                                                                                             |                |        |    |              |
+|Dataset                                                                                                                                       |Year|Language|Size    |File format(s)|Availability|
+|----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------|--------------|------------|
+|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |10.76 GB|.csv          |Public      |
+|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |20.5 MB |.txt          |Public      |
+|REMPARK- nota: tem que se pedir acesso ao dataset                                                                                             |    |        |    |              |
 |PhysioNet                         |       |                |             |                                                           |                |
 |Parkinsons Data Set (Oxford)      |       |                |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |                |             |                                                           |                |
@@ -41,7 +41,7 @@ Cite: [Adams JL, Dinesh K, Snyder CW, Xiong M, Tarolli CG, Sharma S, Dorsey E, S
 
 ### Description
 
-This dataset provides accelerometer data for studying activity, gait, tremor, and other motor symptoms in individuals wih PD. It also includes data from a healthy control group collected during the same collection protocol. The data collection started during a clinical evaluation using the UPDRS and was conducted for around two days afterwards in free-living conditions.
+This dataset provides accelerometer data, collected using the MC BioStamp RC, for studying activity, gait, tremor, and other motor symptoms in individuals wih PD. It also includes data from a healthy control group collected during the same collection protocol. The data collection started during a clinical evaluation using the UPDRS and was conducted for around two days afterwards in free-living conditions.
 
 This dataset contains sensore, UDRS-assessment-annotation data, and demographic and clinical assessment data.
 
@@ -57,3 +57,9 @@ Note: Despite authors mentioning this dataset can be used to study activity, gai
 ## Daphnet
 
 Dataset: https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait
+
+Cite: [Bachlin, M., Plotnik, M., Roggen, D., Maidan, I., Hausdorff, J. M., Giladi, N., & Troster, G. (2009). Wearable assistant for Parkinson’s disease patients with the freezing of gait symptom. IEEE Transactions on Information Technology in Biomedicine, 14(2), 436-446.](https://ieeexplore.ieee.org/abstract/document/5325884)
+
+### Description
+
+
