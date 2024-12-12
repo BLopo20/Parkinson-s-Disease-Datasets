@@ -51,6 +51,8 @@ This dataset contains sensore, UDRS-assessment-annotation data, and demographic 
 
 Units: The accelerations is in g and the timstamps are in miliseconds and start counting from the from the instant of the earliest sensor recording.
 
+Note: Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available.
+
 
 ## Daphnet
 
