@@ -62,12 +62,12 @@ Cite: [Bachlin, M., Plotnik, M., Roggen, D., Maidan, I., Hausdorff, J. M., Gilad
 
 ### Description
 
-This dataset provides accelerometer data, collected with en emphasis on generating freeze events, to recognize gait freeze. The data was collected in the laboratory with accelerometers placed on the ankle, upper leg, and trunk. During the collection the users performed three tasks:
+This dataset provides accelerometer data, collected with en emphasis on generating freeze events, to recognize gait freeze. The data was collected in the laboratory with accelerometers placed just above the ankle, on the upper leg above te knee, and on the lower belt (hip). During the collection the users performed three tasks:
 - Strainght line walking;
 - Walking with numerous turns;
 - Activities of daily living (ADL) tasks, where users went into different rooms while fetching coffe, opening doors, etc.
 
-Each file in the dataset contains a time sample and the corresponding sample data for the ankle acceleration, upper leg acceleration, and trunk acceleration, with values for the horizontal forward, vertical, and horizontal lateral accelerations for each. Lastly, each file contains an annotation of 0, 1, or 2, where:
+Each file in the dataset contains a time sample and the corresponding sample data for the ankle acceleration, upper leg acceleration, and hip acceleration, with values for the horizontal forward, vertical, and horizontal lateral accelerations for each. Lastly, each file contains an annotation of 0, 1, or 2, where:
 - 0: Sample is not part of the experiment (sensors are installed on the user or the user is performing activities unrelated to the experience);
 - 1: No freeze (during the experiment, while patients can be standing, walking, or turning);
 - 2: Freeze.
