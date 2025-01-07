@@ -41,7 +41,20 @@ Cite: [Adams JL, Dinesh K, Snyder CW, Xiong M, Tarolli CG, Sharma S, Dorsey E, S
 
 ### Description
 
-This dataset provides accelerometer data, collected using the MC BioStamp RC, for studying activity, gait, tremor, and other motor symptoms in individuals wih PD. It also includes data from a healthy control group collected during the same collection protocol. The data collection started during a clinical evaluation using the UPDRS and was conducted for around two days afterwards in free-living conditions.
+This dataset provides accelerometer data, collected using the MC BioStamp RC, for studying activity, gait, tremor, and other motor symptoms in individuals wih PD. It also includes data from a healthy control (HC) group collected during the same collection protocol. The data collection started during a clinical evaluation using the UPDRS and was conducted for around two days afterwards in free-living conditions.
+
+The demografic data of the subjects from both groups are shown in the following table.
+
+|Characteristic                                                       |PD group (n=17)|HC group (n=17)|
+|---------------------------------------------------------------------|------------------|------------|
+|Age                                                                  |66.4 ± 11.3       |64.0 ± 9.9 |
+|Sex (women %)                                                        |41.2              |76.5        |
+|Hoehn & Yahr stage                                                   |1.9 ± 0.8         |N/A         |
+|Years since diagnosis                                                |4.8 ± 4.0         |N/A         |
+|MDS-UPDRS - total rest treor score (mean ± standard deviation, range)|2.0 ± 1.6, 0.0-4.0|N/A         |
+|MDS-UPDRS - total motor score (mean ± standard deviation)            |20.9 ± 7.9        |2.2 ± 2.1   |
+|Timed Up and Go (mean ± standard deviation s)                        |10.4 ± 2.6        |8.4 ± 1.1   |
+|10-m Walk Test (mean ± standard deviation s)                         |4.7 ± 1.1         |4.1 ± 0.5   | 
 
 This dataset contains sensor data, UDRS-assessment-annotation data, and demographic and clinical assessment data.
 
@@ -51,7 +64,7 @@ This dataset contains sensor data, UDRS-assessment-annotation data, and demograp
 
 Units: The accelerations is in g and the timstamps are in miliseconds and start counting from the from the instant of the earliest sensor recording.
 
-Note: Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available.
+Note: Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available. The mean values for other test are show in the paper, however the values for wach individual subject are not disclosed.
 
 
 ## Daphnet
