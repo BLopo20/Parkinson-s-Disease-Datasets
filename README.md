@@ -9,6 +9,7 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|Acc|Trunk, both thighs, both forearms| 17 HC and 17 PD|
 |[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)|FoG|Acc|Hip, ankle, and upper leg|10 PD|
 |[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)|FoG|Acc and Gyro|Both feet, both ankles, both wrists,both thigs, lumbar, chest, and head|7 PD|
+|[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)|  |  |  |  |
 |PhysioNet                         |       |             |                                                           |                |
 |Parkinsons Data Set (Oxford)      |       |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |             |                                                           |                |
@@ -22,7 +23,8 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------------|------------|
 |[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |.csv          |Public      |
 |[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |.txt          |Public      |
-|[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)                                                                           |2021|English |.xslx         |Public      |  
+|[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)                                                                           |2021|English |.xslx         |Public      |
+|[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)                                                        |    |        |              |            |
 |PhysioNet                         |       |                |             |                                                           |                |
 |Parkinsons Data Set (Oxford)      |       |                |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |                |             |                                                           |                |
@@ -72,7 +74,7 @@ Note:
 
 Dataset: https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait
 
-Cite: [Bachlin, M., Plotnik, M., Roggen, D., Maidan, I., Hausdorff, J. M., Giladi, N., & Troster, G. (2009). Wearable assistant for Parkinson’s disease patients with the freezing of gait symptom. IEEE Transactions on Information Technology in Biomedicine, 14(2), 436-446.](https://ieeexplore.ieee.org/abstract/document/5325884)
+Publication: [Bachlin, M., Plotnik, M., Roggen, D., Maidan, I., Hausdorff, J. M., Giladi, N., & Troster, G. (2009). Wearable assistant for Parkinson’s disease patients with the freezing of gait symptom. IEEE Transactions on Information Technology in Biomedicine, 14(2), 436-446.](https://ieeexplore.ieee.org/abstract/document/5325884)
 
 ### Description
 
@@ -108,7 +110,7 @@ Note:
 
 Dataset: https://github.com/stanfordnmbl/imu-fog-detection/tree/main
 
-Cite: [O’Day, J., Lee, M., Seagers, K. et al. Assessing inertial measurement unit locations for freezing of gait detection and patient preference. J NeuroEngineering Rehabil 19, 20 (2022). https://doi.org/10.1186/s12984-022-00992-x](https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-022-00992-x)
+Publication: [O’Day, J., Lee, M., Seagers, K. et al. Assessing inertial measurement unit locations for freezing of gait detection and patient preference. J NeuroEngineering Rehabil 19, 20 (2022). https://doi.org/10.1186/s12984-022-00992-x](https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-022-00992-x)
 
 ### Description
 
@@ -133,3 +135,11 @@ Units: The acceleration is in m/s², the gyroscope is in rad/s and the time is i
 
 Note:
 - The dataset has a sampling frequency of 128 Hz.
+
+## PADS - Parkinson's Disease Smartwatch dataset
+
+Dataset: https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel
+
+Publication: [Varghese, J., Brenner, A., Fujarski, M., van Alen, C.M., Plagwitz, L., & Warnecke, T. (2024). Machine Learning in the Parkinson's disease smartwatch (PADS) dataset. npj Parkinsons Dis. 10, 9.](https://www.nature.com/articles/s41531-023-00625-7)
+
+### Describe
