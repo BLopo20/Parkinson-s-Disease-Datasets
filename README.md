@@ -8,7 +8,6 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |-----------------|-------------------|---------------|---------------------------------|----------------|
 |[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|Accelerometer|Trunk, left thigh, right thigh, left forearm, right forearm| 17 HC and 17 PD|
 |[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                    |Freezing of Gait (FoG)               |Accelerometer|Hip, ankle, and upper leg                                      |10 PD           | 
-|REMPARK- nota: tem que se pedir acesso ao dataset                          |       |             |                                                           |                |
 |PhysioNet                         |       |             |                                                           |                |
 |Parkinsons Data Set (Oxford)      |       |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |             |                                                           |                |
@@ -22,7 +21,6 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------|--------------|------------|
 |[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |10.76 GB|.csv          |Public      |
 |[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |20.5 MB |.txt          |Public      |
-|REMPARK- nota: tem que se pedir acesso ao dataset                                                                                             |    |        |    |              |
 |PhysioNet                         |       |                |             |                                                           |                |
 |Parkinsons Data Set (Oxford)      |       |                |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |                |             |                                                           |                |
@@ -47,7 +45,7 @@ The demografic data of the subjects from both groups are shown in the following 
 
 |Characteristic                                                       |PD group (n=17)|HC group (n=17)|
 |---------------------------------------------------------------------|------------------|------------|
-|Age                                                                  |66.4 ± 11.3       |64.0 ± 9.9 |
+|Age                                                                  |66.4 ± 11.3       |64.0 ± 9.9  |
 |Sex (women %)                                                        |41.2              |76.5        |
 |Hoehn & Yahr stage                                                   |1.9 ± 0.8         |N/A         |
 |Years since diagnosis                                                |4.8 ± 4.0         |N/A         |
@@ -82,7 +80,14 @@ This dataset provides accelerometer data, collected with en emphasis on generati
 
 For the first session the devices recorded all necessary data during the performance of the tasks. The second session was a repetition of the first but with rythmic auditory stimulation (RAS) feedback activated. RAS was shown to be effective at improving gait of PD patients and for this collection was only used during an actual or impeding freezing of gait (FOG) event.
 
-The data was collected from 10 idiophatic PD patients with a history of FOG that were able to walk unassisted during the OFF medication period. From these subjects 7 were male and 3 were female. The subjects had a mean age of 66.5 ± 4.8 years, a mean disease duration of 13.7 ± 9.67, and a H&Y in the ON medication state of 2.6 ± 0.65. 
+The data was collected from 10 idiophatic PD patients with a history of FOG that were able to walk unassisted during the OFF medication period. The demographic data of the subjects is shown in the following table.
+
+|Characteristic                               |PD group (n=10)|
+|---------------------------------------------|---------------|
+|Age                                          |66.5 ± 4.8     |
+|Sex (Male/Female)                            |7/3            |
+|Disease duratuion                            |13.7 ± 9.67    |
+|Hoehn & Yahr stage in the ON medication state|2.6 ± 0.65     |
 
 Each file in the dataset contains a time sample and the corresponding sample data for the ankle acceleration, upper leg acceleration, and hip acceleration, with values for the horizontal forward, vertical, and horizontal lateral accelerations for each. Lastly, each file contains an annotation of 0, 1, or 2, where:
 - 0: Sample is not part of the experiment (sensors are installed on the user or the user is performing activities unrelated to the experience);
