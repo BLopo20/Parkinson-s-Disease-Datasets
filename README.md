@@ -6,8 +6,9 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 
 |Dataset          |Symptom            |Sensor         |Device location                  |Subjects        |
 |-----------------|-------------------|---------------|---------------------------------|----------------|
-|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|Accelerometer|Trunk, left thigh, right thigh, left forearm, right forearm| 17 HC and 17 PD|
-|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                    |Freezing of Gait (FoG)               |Accelerometer|Hip, ankle, and upper leg                                      |10 PD           | 
+|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|Acc|Trunk, both thighs, both forearms| 17 HC and 17 PD|
+|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)|FoG|Acc|Hip, ankle, and upper leg|10 PD|
+|[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)|FoG|Acc and Gyro|Both feet, both ankles, both wrists,both thigs, lumbar, chest, and head|7 PD|
 |PhysioNet                         |       |             |                                                           |                |
 |Parkinsons Data Set (Oxford)      |       |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |             |                                                           |                |
@@ -17,10 +18,11 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |MJFF Levodopa Response Study      |       |             |                                                           |                |
 |CuPID                             |       |             |                                                           |                |
 
-|Dataset                                                                                                                                       |Year|Language|Size    |File format(s)|Availability|
-|----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------|--------------|------------|
-|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |10.76 GB|.csv          |Public      |
-|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |20.5 MB |.txt          |Public      |
+|Dataset                                                                                                                                       |Year|Language|File format(s)|Availability|
+|----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------------|------------|
+|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |.csv          |Public      |
+|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |.txt          |Public      |
+|[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)                                                                           |2021|English |.xslx         |Public      |  
 |PhysioNet                         |       |                |             |                                                           |                |
 |Parkinsons Data Set (Oxford)      |       |                |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |                |             |                                                           |                |
@@ -99,3 +101,20 @@ The annotations were obtaine by synchronizing the leg movement data with video r
 Units: The acceleration is in mg and the time of sample is in miliseconds.
 
 Note:  Two patients (ID 02 and ID 08) reported fequent FOG episodes during the ON medication state and, consequently, performed the data collection on the ON state. 
+
+## Oday
+
+Dataset: https://github.com/stanfordnmbl/imu-fog-detection/tree/main
+
+Cite: [O’Day, J., Lee, M., Seagers, K. et al. Assessing inertial measurement unit locations for freezing of gait detection and patient preference. J NeuroEngineering Rehabil 19, 20 (2022). https://doi.org/10.1186/s12984-022-00992-x](https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-022-00992-x)
+
+### Description
+
+|Characteristic                               |PD group (n=7)|
+|---------------------------------------------|--------------|
+|Age                                          |51 - 68       |
+|Sex (Male/Female)                            |4/3           |
+|Disease duratuion                            |5 - 15        |
+|Nº of walks (total of all subjects)          |60            |
+|% time FoG (mena across walks)               |19.7 ± 19.9   |
+|Nº FoG events (mean across walks)            |3.5 ± 3.1     |
