@@ -62,14 +62,22 @@ Cite: [Bachlin, M., Plotnik, M., Roggen, D., Maidan, I., Hausdorff, J. M., Gilad
 
 ### Description
 
-This dataset provides accelerometer data, collected with en emphasis on generating freeze events, to recognize gait freeze. The data was collected in the laboratory with accelerometers placed just above the ankle, on the upper leg above te knee, and on the lower belt (hip). During the collection the users performed three tasks:
-- Strainght line walking;
-- Walking with numerous turns;
+This dataset provides accelerometer data, collected with en emphasis on generating freeze events, to recognize gait freeze. The data was collected in the laboratory with accelerometers placed just above the ankle, on the upper leg above te knee, and on the lower belt (hip). Patients performed the data collection during the OFF mediacation state, in the morning. Data was collected during two sessions, each of about 10 to 15 minutes, while the users performed three tasks:
+- Walking in a straight line;
+- Random walking with numerous turns and initiated stops;
 - Activities of daily living (ADL) tasks, where users went into different rooms while fetching coffe, opening doors, etc.
+
+For the first session the devices recorded all necessary data during the performance of the tasks. The second session was a repetition of the first but with rythmic auditory stimulation (RAS) feedback activated. RAS was shown to be effective at improving gait of PD patients and for this collection was only used during an actual or impeding freezing of gait (FOG) event.
+
+The data was collected from 10 idiophatic PD patients with a history of FOG that were able to walk unassisted during the OFF medication period. From these subjects 7 were male and 3 were female. The subjects had a mean age of 66.5 ± 4.8 years, a mean disease duration of 13.7 ± 9.67, and a H&Y in the ON medication state of 2.6 ± 0.65. 
 
 Each file in the dataset contains a time sample and the corresponding sample data for the ankle acceleration, upper leg acceleration, and hip acceleration, with values for the horizontal forward, vertical, and horizontal lateral accelerations for each. Lastly, each file contains an annotation of 0, 1, or 2, where:
 - 0: Sample is not part of the experiment (sensors are installed on the user or the user is performing activities unrelated to the experience);
 - 1: No freeze (during the experiment, while patients can be standing, walking, or turning);
 - 2: Freeze.
 
+The annotations were obtaine by synchronizing the leg movement data with video recordings of the walking trials and having a physiotherapist take notes of relevant events during the sessions and identifying the start time, duration, and end time of freezing events. Moreover an assistant annotated the patients activity (e.g. standing, walking, turning, or freezing) during the recording session.
+
 Units: The acceleration is in mg and the time of sample is in miliseconds.
+
+Note:  Two patients (ID 02 and ID 08) reported fequent FOG episodes during the ON medication state and, consequently, performed the data collection on the ON state. 
