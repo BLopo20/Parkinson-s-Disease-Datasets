@@ -64,8 +64,9 @@ This dataset contains sensor data, UDRS-assessment-annotation data, and demograp
 
 Units: The accelerations is in g and the timstamps are in miliseconds and start counting from the from the instant of the earliest sensor recording.
 
-Note: Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available. The mean values for other test are show in the paper, however the values for wach individual subject are not disclosed.
-
+Note: 
+- Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available. The mean values for other test are show in the paper, however the values for wach individual subject are not disclosed.
+- The dataset has a sampling frequency of 31.25 Hz.
 
 ## Daphnet
 
@@ -100,7 +101,8 @@ The annotations were obtaine by synchronizing the leg movement data with video r
 
 Units: The acceleration is in mg and the time of sample is in miliseconds.
 
-Note:  Two patients (ID 02 and ID 08) reported fequent FOG episodes during the ON medication state and, consequently, performed the data collection on the ON state. 
+Note: 
+- Two patients (ID 02 and ID 08) reported fequent FOG episodes during the ON medication state and, consequently, performed the data collection on the ON state. 
 
 ## Oday
 
@@ -110,6 +112,12 @@ Cite: [O’Day, J., Lee, M., Seagers, K. et al. Assessing inertial measurement u
 
 ### Description
 
+This dataset provides accelerometer and gyroscope data for the detection of FoG. The data was collected while the subjects walked independently through a turning and barier course, designed to elicit FoG, while wearing the inertial measuring units (IMUs).
+
+Each walking trial consisted of two elipses and two figures of eight around tall barriers. Each subject performed 5 to 14 walking trials trough 2 to 6 visits, separated by up to 44 months. The walking trials were completed while the subjects were on the OFF medication status and off deep brain stimulation (DBS).
+
+From the 7 subjects, 4 wore 11 IMUs placed on the locations described in the first table in the begining of the repository (both feet, booth ankles , both wrists, both thighs, lumbar, chest, and head) and the remaining 3 subjects wore only 6 IMUs placed on both feet, both ankles, lumbar, and chest. The subjects demographic data is shown in the following table. 
+
 |Characteristic                               |PD group (n=7)|
 |---------------------------------------------|--------------|
 |Age                                          |51 - 68       |
@@ -118,3 +126,10 @@ Cite: [O’Day, J., Lee, M., Seagers, K. et al. Assessing inertial measurement u
 |Nº of walks (total of all subjects)          |60            |
 |% time FoG (mena across walks)               |19.7 ± 19.9   |
 |Nº FoG events (mean across walks)            |3.5 ± 3.1     |
+
+Each dafa file corresponds to a walking task of a subject and contains, in each sample, the time, the accelerometer and gyroscope values of each of the X, Y, and Z axes for every IMU the patient wore, and the FoG label. This label can be 0 for non FoG or 1 for FoG. To obtain the FoG label, a video of each walking task was synchronized with the IMU system and an experienced rater identified the start and end times of FoG events in the video recordings.
+
+Units: The acceleration is in m/s², the gyroscope is in rad/s and the time is in seconds.
+
+Note:
+- The dataset has a sampling frequency of 128 Hz.
