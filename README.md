@@ -11,11 +11,12 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)|FoG|Acc and Gyro|Both feet, both ankles, both wrists,both thigs, lumbar, chest, and head|7 PD|
 |[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)|Tremor|Acc and Gyro|Both wrists|276 PD, 79 HC, and 114 DD|
 |[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)|Motor fluctuations|Acc|Both wrists, both ankles, and waist|31 PD|
+|[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|Spatial memory, voice changes, gait, balance, and other motor symptoms|Acc, Gyro, magnetometer, pedometer, and microphone|N/A|9520|
 |Parkinsons Data Set (Oxford)      |       |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |             |                                                           |                |
 |Parkinson Speech data set         |       |             |                                                           |                |
 |Parkinson's Disease Classification|       |             |                                                           |                |
-|[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|       |             |                                                           |                |
+
 
 
 |Dataset                                                                                                                                       |Year|Language|File format(s)                  |Availability|
@@ -25,11 +26,11 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)                                                                           |2021|English |.xslx                           |Public      |
 |[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)                                                        |2024|English |.json, .txt, .py, .bin, and .csv|Public      |
 |[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)                                                       |2019|English |.txt                            |Private     |
+|[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)                                                                              |2015|English |.json and .m4a                  |Private     |
 |Parkinsons Data Set (Oxford)                                                                                                                  |    |        |                                |            |
 |Parkinsons Telemonitoring                                                                                                                     |    |        |                                |            |
 |Parkinson Speech data set                                                                                                                     |    |        |                                |            |
 |Parkinson's Disease Classification                                                                                                            |    |        |                                |            |
-|[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)                                                                              |    |        |                                |            |
 
 
 ## PD-BioStampRC
@@ -214,12 +215,14 @@ After the data collection on the first day, subjects were sent home wearing the 
 
 On the fourth day, patients came back to the lab on the OFF medication state and repeated the procedure that was performed on the first day. However, the first time subjects performed the motor tasks was on the OFF state and the following repetitions were on the ON state.
 
+Units: The acceleration is in m/s².
+
 Note: 
 - The dataset has a sampling frequency of 50 Hz.
 - Data from two subjects were excluded  because some of the motor tasks were modified according to issues encountered during the first assessment. Data from another subject was excluded due to a technical malfunction of the sensors that lead to a substancial amount of missing data.
 - Subject 11_NYC swapped the positions of the GENEActiv and Pebble devices after the first session in the lab, on the first day. For this subject that session ended at the timestamp 1433495025.7.
 
-## How to acess the data
+## How to access the data
 
 The dataset is available in the Synapse platform. To access the dataset researchers can follow the steps bellow:
 1. Register for a Synapse account;
@@ -230,3 +233,32 @@ The dataset is available in the Synapse platform. To access the dataset research
 6. Download the data.
 
 These steps are explained more indept in the "Accessing the Data" section of dataset link.
+
+## mPower
+
+Dataset: https://www.synapse.org/Synapse:syn4993293/wiki/247859
+
+Publication: [Bot, B., Suver, C., Neto, E. et al. The mPower study, Parkinson disease mobile data collected using ResearchKit. Sci Data 3, 160011 (2016). https://doi.org/10.1038/sdata.2016.11](https://www.nature.com/articles/sdata201611)
+
+### Description
+
+This database is based on a mobile application study that supplements traditional symptom measurements with metrics collected using the sensors in mobile devices. The Parkinson mPower app allowed the survey of a large, longitudinal cohort of volunteers with PD and healthy controls.
+
+The dataset contains data from the following seven study tasks:
+- Demographic: subjects respond to questions about general demographic topics and health history;
+- MDS-UPDRS: subjects respond to selected questions from the MDS-UPDRS scale;
+- PDQ-8: subjects reespond to a short form of a Parkinson's Disease Questionnaire;
+- Memory: subjects complete a short visuospatial game related to the Corsi block tapping test;
+- Tapping: subjects repeatedly tap their phone's screen;
+- Voice: subjects record ambient noise lever for 5 seconds and, if the noise level is acceptable, record themselves saying "aaah" for 10 seconds;
+- Walking: subjects walk back and forth for 20 to 30 seconds with their smartphones in their pocket and, afterwards, stand still for another 20 to 30 seconds;
+
+The fisrt task is completed once when the subject first uses the app, the next two tasks are completed once a month, and the remaining tasks are completed three times a day. Subjects that self-identified as having a professional PD diagnosis were asked two performe the last four tasks immediatly before taking their medication, after taking their medication and at some other time. Subjects who did not self-identify has having a professional PD diagnosis could complete these tasks at any time during the day. 
+
+For the walking task, data is collected from accelerometer, pedometer and core motion readings, which include attitude, rotation rate, acceleration, gravity, and magnetic field.
+
+The mPower app was made available through the Apple App Store only in the United States. Enrollment was open to individuals diagnosed with PD and anyone that wanted to participate as a healthy control. A total of 9,520 subjects consented to the study and agreed to share their data. Of these, 8,320 completed at least one survey or task. Of the 6,805 who completed the enrollment survey, 1,087 self-identified as having a professional diagnosis of PD and 5,581 did not, with 137 opting not to answer the question. Despite follow up being nonuniform across participants, due to the nature of the study, 898 participants collected data at least five separate days over the course of the first six months. 
+
+Units: The acceleration is in m/s².
+
+## How to access the data
