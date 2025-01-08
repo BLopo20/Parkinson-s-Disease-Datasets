@@ -9,30 +9,27 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|Acc|Trunk, both thighs, both forearms| 17 HC and 17 PD|
 |[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)|FoG|Acc|Hip, ankle, and upper leg|10 PD|
 |[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)|FoG|Acc and Gyro|Both feet, both ankles, both wrists,both thigs, lumbar, chest, and head|7 PD|
-|[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)|  |  |  |  |
-|PhysioNet                         |       |             |                                                           |                |
+|[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)|Tremor|Acc and Gyro|Both wrists|276 PD, 79 HC, and 114 DD|
 |Parkinsons Data Set (Oxford)      |       |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |             |                                                           |                |
 |Parkinson Speech data set         |       |             |                                                           |                |
 |Parkinson's Disease Classification|       |             |                                                           |                |
-|mPower                            |       |             |                                                           |                |
-|MJFF Levodopa Response Study      |       |             |                                                           |                |
-|CuPID                             |       |             |                                                           |                |
+|[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|       |             |                                                           |                |
+|[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)|       |             |                                                           |                |
 
-|Dataset                                                                                                                                       |Year|Language|File format(s)|Availability|
-|----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------------|------------|
-|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |.csv          |Public      |
-|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |.txt          |Public      |
-|[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)                                                                           |2021|English |.xslx         |Public      |
-|[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)                                                        |    |        |              |            |
-|PhysioNet                         |       |                |             |                                                           |                |
+
+|Dataset                                                                                                                                       |Year|Language|File format(s)            |Availability|
+|----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------------------------|------------|
+|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |.csv                      |Public      |
+|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |.txt                      |Public      |
+|[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)                                                                           |2021|English |.xslx                     |Public      |
+|[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)                                                        |2024|English |.json, .txt, .py, .bin, and .csv|Public      |
 |Parkinsons Data Set (Oxford)      |       |                |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |                |             |                                                           |                |
 |Parkinson Speech data set         |       |                |             |                                                           |                |
 |Parkinson's Disease Classification|       |                |             |                                                           |                |
-|mPower                            |       |                |             |                                                           |                |
-|MJFF Levodopa Response Study      |       |                |             |                                                           |                |
-|CuPID                             |       |                |             |                                                           |                |
+|[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|       |                |             |                                                           |                |
+|[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)|       |                |             |                                                           |                |
 
 ## PD-BioStampRC
 Year of creation: 2021 (Last update in 2022)
@@ -67,8 +64,8 @@ This dataset contains sensor data, UDRS-assessment-annotation data, and demograp
 Units: The accelerations is in g and the timstamps are in miliseconds and start counting from the from the instant of the earliest sensor recording.
 
 Note: 
-- Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available. The mean values for other test are show in the paper, however the values for wach individual subject are not disclosed.
 - The dataset has a sampling frequency of 31.25 Hz.
+- Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available. The mean values for other test are show in the paper, however the values for wach individual subject are not disclosed.
 
 ## Daphnet
 
@@ -135,6 +132,7 @@ Units: The acceleration is in m/s², the gyroscope is in rad/s and the time is i
 
 Note:
 - The dataset has a sampling frequency of 128 Hz.
+- The dataset also contains code to pre-process, train, and evaluate convolutional neural networks that identify FoG.
 
 ## PADS - Parkinson's Disease Smartwatch dataset
 
@@ -143,3 +141,26 @@ Dataset: https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#file
 Publication: [Varghese, J., Brenner, A., Fujarski, M., van Alen, C.M., Plagwitz, L., & Warnecke, T. (2024). Machine Learning in the Parkinson's disease smartwatch (PADS) dataset. npj Parkinsons Dis. 10, 9.](https://www.nature.com/articles/s41531-023-00625-7)
 
 ### Describe
+
+The differential diagnosis (DD) group includes subjects with Atypical Parkinsonism, Essential Tremor, Multiple Sclerosis, or other disease. 
+
+|Characteristic   |PD group (n=276)|HC group (n=79)|DD group (n=114)|
+|-----------------|----------------|---------------|----------------|
+|Age              |65.4 ± 9.6      |62.9 ± 12.5    |62.4 ± 11.5     |
+|Sex (Male/Female)|195/81          |29/50          |57/57           |
+|Age at diagnosis |58.26 ± 10.62   |N/A            |52.96 ± 16.52   |
+
+The following tablçe contains the folders in the dataset, an example of the name and type of files in each folder and a description of each file.
+
+|Folders      |Files name and type                                 |Description                                             |
+|-------------|----------------------------------------------------|--------------------------------------------------------|
+|movement     |observation_001.json and 001_CrossArms_LeftWrist.txt|The .json file holds all meta information. The .txt files are in a separate folder called timeseries and hold the smartwatch records.| 
+|questionaires|questionnaire_response_001.json                     |This file holds the questionnaire data.|
+|patients     |patient_001.json                                    |This file holds all relevant metadata of the patient.|
+|scripts      |run_preprocessing.py                                |This file holds exemplary coda that shows how data can be accessed usin Python.|
+|preprocessed |001_ml.bin, 001_ml.bin, and file_list.csv           |This file holds the pre-processed files, in two separate files called movement and questionnaire, and a .csv file that gives an overview of all samples.|
+
+Units: The acceleration is in g and the gyroscope is in rad/s.
+
+Note:
+- The dataset has a sampling frequency of 100 Hz.
