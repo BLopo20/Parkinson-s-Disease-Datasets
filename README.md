@@ -262,3 +262,16 @@ The mPower app was made available through the Apple App Store only in the United
 Units: The acceleration is in m/s².
 
 ## How to access the data
+
+The dataset is available in the Synapse platform. To access the dataset researchers can follow the steps bellow:
+1. Register for a Synapse account;
+2. Become a certified Synapse user;
+3. Have your user profile validated;
+4. Request access to mPower Data and submit your intended data use statement;
+5. Agree to the data-specific conditions of use;
+6. Download the data.
+
+Due to copyright restrictions associated with the MDS-UPDRS and PDQ-8 surveys, adittional steps are necessary to access MDS-UPDRS survey and PDQ-8 survey sensor data.
+
+These steps are explained more indept in the "Accessing the Data" section of dataset link.
+
