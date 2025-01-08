@@ -10,26 +10,27 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)|FoG|Acc|Hip, ankle, and upper leg|10 PD|
 |[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)|FoG|Acc and Gyro|Both feet, both ankles, both wrists,both thigs, lumbar, chest, and head|7 PD|
 |[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)|Tremor|Acc and Gyro|Both wrists|276 PD, 79 HC, and 114 DD|
+|[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)|Motor fluctuations|Acc|Both wrists, both ankles, and waist|31 PD|
 |Parkinsons Data Set (Oxford)      |       |             |                                                           |                |
 |Parkinsons Telemonitoring         |       |             |                                                           |                |
 |Parkinson Speech data set         |       |             |                                                           |                |
 |Parkinson's Disease Classification|       |             |                                                           |                |
 |[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|       |             |                                                           |                |
-|[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)|       |             |                                                           |                |
 
 
-|Dataset                                                                                                                                       |Year|Language|File format(s)            |Availability|
-|----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------------------------|------------|
-|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |.csv                      |Public      |
-|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |.txt                      |Public      |
-|[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)                                                                           |2021|English |.xslx                     |Public      |
+|Dataset                                                                                                                                       |Year|Language|File format(s)                  |Availability|
+|----------------------------------------------------------------------------------------------------------------------------------------------|----|--------|--------------------------------|------------|
+|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|2021|English |.csv                            |Public      |
+|[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)                                                                   |2013|English |.txt                            |Public      |
+|[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)                                                                           |2021|English |.xslx                           |Public      |
 |[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)                                                        |2024|English |.json, .txt, .py, .bin, and .csv|Public      |
-|Parkinsons Data Set (Oxford)      |       |                |             |                                                           |                |
-|Parkinsons Telemonitoring         |       |                |             |                                                           |                |
-|Parkinson Speech data set         |       |                |             |                                                           |                |
-|Parkinson's Disease Classification|       |                |             |                                                           |                |
-|[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|       |                |             |                                                           |                |
-|[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)|       |                |             |                                                           |                |
+|[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)                                                       |2019|English |.txt                            |Private     |
+|Parkinsons Data Set (Oxford)                                                                                                                  |    |        |                                |            |
+|Parkinsons Telemonitoring                                                                                                                     |    |        |                                |            |
+|Parkinson Speech data set                                                                                                                     |    |        |                                |            |
+|Parkinson's Disease Classification                                                                                                            |    |        |                                |            |
+|[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)                                                                              |    |        |                                |            |
+
 
 ## PD-BioStampRC
 Year of creation: 2021 (Last update in 2022)
@@ -140,7 +141,7 @@ Dataset: https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#file
 
 Publication: [Varghese, J., Brenner, A., Fujarski, M., van Alen, C.M., Plagwitz, L., & Warnecke, T. (2024). Machine Learning in the Parkinson's disease smartwatch (PADS) dataset. npj Parkinsons Dis. 10, 9.](https://www.nature.com/articles/s41531-023-00625-7)
 
-### Describe
+### Description
 
 This dataset provides accelerometer and gyroscope data collected using two smartwatches during clinical assessment of PD paatients, patients with other similar movement disorders and healthy controls. The data acquisition was divided into the completion of eletronic questionnaires and the active movemet assessment. For the active movement assessment the subjects wore the two smartwatches on their wrists and the sensors recorded data during the performance of 11 movement tasks desiged to provoke subtel changes in movement pathologies and triger tremor characteristics. Each of the following tasks was performed for 10 to 20 seconds depending on the task and is associated with a particular ype of tremor:
 - Resting with closed eyes while sitting (20 seconds) - resting tremor;
@@ -177,3 +178,46 @@ Units: The acceleration is in g and the gyroscope is in rad/s.
 
 Note:
 - The dataset has a sampling frequency of 100 Hz.
+
+## MJFF Levedopa Response Study
+
+Dataset: https://www.synapse.org/Synapse:syn20681023/wiki/
+
+Publication: 
+[Daneault, JF., Vergara-Diaz, G., Parisi, F. et al. Accelerometer data collected with a minimum set of wearable sensors from subjects with Parkinson’s disease. Sci Data 8, 48 (2021). https://doi.org/10.1038/s41597-021-00830-0](https://www.nature.com/articles/s41597-021-00830-0)
+
+[Vergara-Diaz, G., Daneault, JF., Parisi, F. et al. Limb and trunk accelerometer data collected with wearable sensors from subjects with Parkinson’s disease. Sci Data 8, 47 (2021). https://doi.org/10.1038/s41597-021-00831-z](https://www.nature.com/articles/s41597-021-00831-z)
+
+## Description
+
+This dataset provides data from 3 or 8 sensors collected both in clinical and home settings to evaluate wheter mobile sensors can be used to track motor fluctuations caused by Levodopa treatment. These motor fluctuations include dyskinesia and depleting effectiveness at controlling symptoms.
+
+All study participants wore at least 3 sensors, a GeneActiv on the wrist of the most affected limb, a Pebble smartwatch on the wrist of the least affected limb, and a Samsung Galaxy Mini smartphone in a fanny pack worn in front of the waist. Of the 31 subjects, 19 also wore 5 Shimmer 3 sensors placed, with one of these sesors placed on each limb and on placed on the lower back. Subjects that wore the Shimmer 3 sensor performed a slightly expanded protocol.
+
+Data was collected on 4 days. On the first day, subjects were on the ON medication state and performed section III of the MDS-UPDRS in the lab. Afterwards, subjects performed several motor tasks, listed bellow. The performance of these tasks was repeated 6 to 8 times at 30 minute intervals. A clinician provided labels of symptom severity and/or presence for each task.
+- Standing;
+- Walking in a straight line for 30s;
+- Walking in a straight line for 30s while counting backwards;
+- Walking upstairs and down stairs;
+- Walking through a narrow corridor;
+- Finger-to-nose for 15s (twice with each arm);
+- Alternating hand movements for 15s (twice with each arm);
+- Drawing;
+- Typing on a keyboard for 30s;
+- Opening a bottle and pouring water (three times);
+- Arranging sheets of paper in a folder (twice);
+- Assembling nuts and bolts for 30s;
+- Folding a towel three times;
+- Sitting.
+
+After the data collection on the first day, subjects were sent home wearing the sensors and were instructed to conduct their usual activities for the following two days, recording medication intake and doses and the time they went to sleep and woke up. Furthermore, subjects that wore the Shimmer sensor were asked to performe motor tasks corresponding to specific item of section III of the MDS-UPDRS every 30 minutes for a total of 7 times each day.
+
+On the fourth day, patients came back to the lab on the OFF medication state and repeated the procedure that was performed on the first day. However, the first time subjects performed the motor tasks was on the OFF state and the following repetitions were on the ON state.
+
+Note: 
+- The dataset has a sampling frequency of 50 Hz.
+- Data from two subjects were excluded  because some of the motor tasks were modified according to issues encountered during the first assessment. Data from another subject was excluded due to a technical malfunction of the sensors that lead to a substancial amount of missing data.
+- Subject 11_NYC swapped the positions of the GENEActiv and Pebble devices after the first session in the lab, on the first day. For this subject that session ended at the timestamp 1433495025.7.
+
+## How to acess the data
+
