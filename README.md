@@ -142,7 +142,20 @@ Publication: [Varghese, J., Brenner, A., Fujarski, M., van Alen, C.M., Plagwitz,
 
 ### Describe
 
-The differential diagnosis (DD) group includes subjects with Atypical Parkinsonism, Essential Tremor, Multiple Sclerosis, or other disease. 
+This dataset provides accelerometer and gyroscope data collected using two smartwatches during clinical assessment of PD paatients, patients with other similar movement disorders and healthy controls. The data acquisition was divided into the completion of eletronic questionnaires and the active movemet assessment. For the active movement assessment the subjects wore the two smartwatches on their wrists and the sensors recorded data during the performance of 11 movement tasks desiged to provoke subtel changes in movement pathologies and triger tremor characteristics. Each of the following tasks was performed for 10 to 20 seconds depending on the task and is associated with a particular ype of tremor:
+- Resting with closed eyes while sitting (20 seconds) - resting tremor;
+- Resting while patient is calculating serial sevens (20 seconds) - resting tremor;
+- Lift and extend arms (10 seconds) - postural tremor;
+- Remain arms lifted (10 seconds) - postural tremor;
+- Hold 1 kg weight in each hand for 5 seconds - postural tremor;
+- Point index finger to the examiners lifted hand (10 seconds) - kinetic tremor;
+- Drink from glass (10 seconds) - kinetic tremor;
+- Cross and extend both arms (10 seconds) - kinetic tremor;
+- Bring both index fingers to each other (10 seconds);
+- Tap own nose with index finger (10 seconds) - inetis tremor;
+- Stomp on the ground while having the arms extended (20 seconds) - postural tremor.
+
+The differential diagnosis (DD) group includes subjects with Atypical Parkinsonism, Essential Tremor, Multiple Sclerosis, or other movement disorders. The demographic data of the three groups of subjects is shown in the following table.
 
 |Characteristic   |PD group (n=276)|HC group (n=79)|DD group (n=114)|
 |-----------------|----------------|---------------|----------------|
@@ -150,7 +163,7 @@ The differential diagnosis (DD) group includes subjects with Atypical Parkinsoni
 |Sex (Male/Female)|195/81          |29/50          |57/57           |
 |Age at diagnosis |58.26 ± 10.62   |N/A            |52.96 ± 16.52   |
 
-The following tablçe contains the folders in the dataset, an example of the name and type of files in each folder and a description of each file.
+The following table contains the folders in the dataset, an example of the name and type of files in each folder and a description of each file.
 
 |Folders      |Files name and type                                 |Description                                             |
 |-------------|----------------------------------------------------|--------------------------------------------------------|
