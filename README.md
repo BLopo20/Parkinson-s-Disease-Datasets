@@ -221,3 +221,12 @@ Note:
 
 ## How to acess the data
 
+The dataset is available in the Synapse platform. To access the dataset researchers can follow the steps bellow:
+1. Register for a Synapse account;
+2. Become a certified Synapse user;
+3. Have your user profile validated;
+4. Request access to the data and submit your intended data use statement;
+5. Agree to the data-specific conditions of use;
+6. Download the data.
+
+These steps are explained more indept in the "Accessing the Data" section of dataset link.
