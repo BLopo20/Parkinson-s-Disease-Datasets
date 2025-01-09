@@ -14,8 +14,7 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|Spatial memory, voice changes, gait, balance, and other motor symptoms|Acc, Gyro, magnetometer, pedometer, and microphone|N/A|9520|
 |[Parkinsons Telemonitoring](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)|Voice changes|Microphone|Placed 5 cm from the patient's lips|42 PD|
 |[REMAP](https://data.bris.ac.uk/data/dataset/2o94rzjooyzf42w850dqg0spfh)|Gait problems and postural instablity|Camera and Acc|Both wrists (Acc)|12 PD and 12 HC|
-|Parkinson Speech data set         |       |             |                                                           |                |
-|Parkinson's Disease Classification|       |             |                                                           |                |
+|[MDVR-KCL](https://zenodo.org/records/2867216)|Voice changes|Microphone|In direct proximity to the mouth|16 PD and 21 HC                |
 
 
 
@@ -29,8 +28,7 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)                                                                              |2015|English |.json and .m4a                  |Private     |
 |[Parkinsons Telemonitoring](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)                                                |2009|English |.csv                            |Public      |
 |[REMAP](https://data.bris.ac.uk/data/dataset/2o94rzjooyzf42w850dqg0spfh)                                                                      |2023|English |.xls and .csv                   |Private     |
-|Parkinson Speech data set                                                                                                                     |    |        |                                |            |
-|Parkinson's Disease Classification                                                                                                            |    |        |                                |            |
+|[MDVR-KCL](https://zenodo.org/records/2867216)                                                                                                |2019|English |.wav                            |Public      |
 
 
 ## PD-BioStampRC
@@ -363,3 +361,14 @@ To access this dataset researcher need to complete the data request form in: htt
 However, some of the dataset is available in a public open dataset: https://data.bris.ac.uk/data/dataset/21h9f9e30v9cl2fapjggz4q1x7
 
 The open dataset only contains 2D and 3D skeleton data. On the other hand, the dataset presented here contains additional accelerometer data and the more refined data.
+
+
+## MDVR-KCL - Mobile Device Voice Recordings at King's College London
+
+Dataset: https://zenodo.org/records/2867216
+
+Publication: No publication is mentioned in the dataset page.
+
+Citation: Hagen Jaeger, Dhaval Trivedi, & Michael Stadtschnitzer. (2019). Mobile Device Voice Recordings at King's College London (MDVR-KCL) from both early and advanced Parkinson's disease patients and healthy controls [Data set]. Zenodo. https://doi.org/10.5281/zenodo.2867216
+
+### Description
