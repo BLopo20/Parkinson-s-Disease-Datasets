@@ -12,8 +12,7 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)|Tremor|Acc and Gyro|Both wrists|276 PD, 79 HC, and 114 DD|
 |[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)|Motor fluctuations|Acc|Both wrists, both ankles, and waist|31 PD|
 |[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|Spatial memory, voice changes, gait, balance, and other motor symptoms|Acc, Gyro, magnetometer, pedometer, and microphone|N/A|9520|
-|Parkinsons Data Set (Oxford)      |       |             |                                                           |                |
-|Parkinsons Telemonitoring         |       |             |                                                           |                |
+|[Parkinsons Telemonitoring](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)|Voice changes|Microphone|Placed 5 cm from the patient's lips|42 PD|
 |Parkinson Speech data set         |       |             |                                                           |                |
 |Parkinson's Disease Classification|       |             |                                                           |                |
 
@@ -27,8 +26,7 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)                                                        |2024|English |.json, .txt, .py, .bin, and .csv|Public      |
 |[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)                                                       |2019|English |.txt                            |Private     |
 |[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)                                                                              |2015|English |.json and .m4a                  |Private     |
-|Parkinsons Data Set (Oxford)                                                                                                                  |    |        |                                |            |
-|Parkinsons Telemonitoring                                                                                                                     |    |        |                                |            |
+|[Parkinsons Telemonitoring](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)                                                |2009|English |.csv                            |Public      |
 |Parkinson Speech data set                                                                                                                     |    |        |                                |            |
 |Parkinson's Disease Classification                                                                                                            |    |        |                                |            |
 
@@ -234,6 +232,7 @@ The dataset is available in the Synapse platform. To access the dataset research
 
 These steps are explained more indept in the "Accessing the Data" section of dataset link.
 
+
 ## mPower
 
 Dataset: https://www.synapse.org/Synapse:syn4993293/wiki/247859
@@ -275,3 +274,13 @@ Due to copyright restrictions associated with the MDS-UPDRS and PDQ-8 surveys, a
 
 These steps are explained more indept in the "Accessing the Data" section of dataset link.
 
+
+## Parkinsons Telemonitoring
+
+Dataset: https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring
+
+Publication: [Athanasios Tsanas, Max A. Little, Patrick E. McSharry, Lorraine O. Ramig (2009), 'Accurate telemonitoring of Parkinson’s disease progression by non-invasive speech tests', IEEE Transactions on Biomedical Engineering](https://www.nature.com/articles/npre.2009.3920.1)
+
+### Description
+
+This database is b
