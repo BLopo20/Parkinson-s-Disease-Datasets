@@ -283,4 +283,31 @@ Publication: [Athanasios Tsanas, Max A. Little, Patrick E. McSharry, Lorraine O.
 
 ### Description
 
-This database is b
+This database provides biomedical voice measurements from 42 subjects with early stage PD, recorded at the subject's house, for the remote monitoring of symptom progression.
+
+Data was collected with the Intel At-Home Testing Device (AHTD), a telemonitoring system that includes a high-quality microphone headset. An automatic alarm reminder prompts the patient to undertake the tasks to measure speech and voice on a weekly basis. The two types of audio recordings were sustained phonations and running speech tests in which the subject describes a photograph displayed on the AHTD's screen. On the day the data collection occured, six phonations tests were recorded, four at a comfortable pitch and loudness and two at twice thi initial loudness.
+
+All subjects were off their medication during the six month duration of the study. The subjects performed a UPDRS evaluation at the begining of the study, after three months, and after six months. The subjects demographic data and UPDRS evaluation points are shown on the following table.
+
+|Characteristic                      |PD group (n=42)               |
+|------------------------------------|------------------------------|
+|Age                                 |64.4 ± 9.24                   |
+|Sex (Male/Female)                   |28/14                         |
+|Weeks since diagnosis               |72 ± 69                       |
+|Motor and total UPDRS (begining)    |19.42 ± 8.12 and 26.39 ± 10.80|  
+|Motor and total UPDRS (three months)|21.69 ± 9.18 and 29.36 ± 11.82|
+|Motor and total UPDRS (six months)  |29.57 ± 9.17 and 29.57 ± 11.92|
+
+Each subject has around 200 recordings and each row in a csv file contains an instance corresponding to one voice recording. The 16 biomedical voice measures were:
+- Jitter(%), Jitter(Abs), Jitter:RAP, Jitter:PPQ5, Jitter:DDP - Measures of variation in fundamental frequency;
+- Shimmer, Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5, Shimmer:APQ11, Shimmer:DDA - Measures of variation in amplitude;
+- NHR, HNR - Measures of ratio of noise to tonal components in the voice;
+- RPDE - Nonlinear dynamical complexity measure;
+- DFA - Signal fractal scaling exponent;
+- PPE - Nonlinear measure of fundamental frequency variation; 
+
+Units: The Jitter is in % and the Shimmer is in dB.
+
+Note: 
+- The voice signals were recorded at 24 kHz.
+
