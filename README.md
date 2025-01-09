@@ -342,21 +342,24 @@ The demographic and clinical rating scores of the subjects in the PD and HC grou
 |Hoehn & Yahr OFF medication   | 2.3 ± 0.8                        |               |
 |Levedopa equivalent daily dose|517.5 ± 395.7                     |               |
 
-Datacollection
-Subjects
-File
+The study setting was a house with wall-mounted cameras in communal rooms, where subjects stayed for 5 days and 4 nights. The subjects were encouraged to live as freely as possible, being allowed leave the house and bring to the house anything that helped them continue normal daily activities. Subjects with PD werew asked to withhold their dopaminergic medication and/or switch off deep brain stimulation, in order to be in the OFF medication state for a limited period of hours.
 
-Units:
+Subjects from the PD group underwent three clinical evaluations and subjects from the HC group underwent two clinical evaluations. The clinical evaluations concicted of the following tasks:
+- Performing the full motor sub score of the MDS-UPDRS (III);
+- Performing the timed-up-and-go (TUG) test twice;
+- Doing 20-metre walks (including three 180 turns), while the clinician evaluated their gait, at “normal”, “fast” and “slow” paces;
+
+Subjects with PD were also completed the PDQ-39, the RBD-SQ, the PDSS, and the NMSS.
+
+Red-green-blue (RGB) video was captured from cameras for between 1 and 3 hours on the first 4 days for each subject. The times at which video was captured was prearranged with the subjects to ensure they were home while data was collected. The RGB clips were were transformed to 2D and 3D human pose data. This dataset also includes accelerometer data for sit-to-stand and turning in gait episodes and other activities labelled in the dataset (i.e. descending stairs, going up stairs, or standing still).
 
 Note:
-- ddcdskh
+- Te accelerometer has a variable sampling rate of approximately 30 Hz and the video was 640x480 pixels in resolution and had an average frame rate of 30 frames per second.
 
 ## How to access the data
 
 To access this dataset researcher need to complete the data request form in: https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG3zqTpiAq8NIrwJhYW1tgwFUMEE0MFVOQkhJVzNHREgwREdOMDhYSVRNTCQlQCN0PWcu
 
-However, some of the dataset is available in a public dataset: https://data.bris.ac.uk/data/dataset/21h9f9e30v9cl2fapjggz4q1x7
+However, some of the dataset is available in a public open dataset: https://data.bris.ac.uk/data/dataset/21h9f9e30v9cl2fapjggz4q1x7
 
-Differences between datasets
-We present this controlled dataset available on application where there is more refined data (this is a sister dataset to the open dataset, REMAP Open, where the data is coarsened for anonymisation).
-We include pseudonymised and coarsened skeleton pose data in an open source dataset49, and additional data including accelerometry and uncoarsened skeleton pose data is published in a controlled dataset5
+The open dataset only contains 2D and 3D skeleton data. On the other hand, the dataset presented here contains additional accelerometer data and the more refined data.
