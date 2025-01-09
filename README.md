@@ -352,7 +352,7 @@ Subjects with PD were also completed the PDQ-39, the RBD-SQ, the PDSS, and the N
 Red-green-blue (RGB) video was captured from cameras for between 1 and 3 hours on the first 4 days for each subject. The times at which video was captured was prearranged with the subjects to ensure they were home while data was collected. The RGB clips were were transformed to 2D and 3D human pose data. This dataset also includes accelerometer data for sit-to-stand and turning in gait episodes and other activities labelled in the dataset (i.e. descending stairs, going up stairs, or standing still).
 
 Note:
-- Te accelerometer has a variable sampling rate of approximately 30 Hz and the video was 640x480 pixels in resolution and had an average frame rate of 30 frames per second.
+- The accelerometer has a variable sampling rate of approximately 30 Hz and the video was 640x480 pixels in resolution and had an average frame rate of 30 frames per second.
 
 ## How to access the data
 
@@ -372,3 +372,17 @@ Publication: No publication is mentioned in the dataset page.
 Citation: Hagen Jaeger, Dhaval Trivedi, & Michael Stadtschnitzer. (2019). Mobile Device Voice Recordings at King's College London (MDVR-KCL) from both early and advanced Parkinson's disease patients and healthy controls [Data set]. Zenodo. https://doi.org/10.5281/zenodo.2867216
 
 ### Description
+
+This dataset contains data from voice recordings during spontaneous dialogue and text reading of subjects with PD and HC. 
+
+A Motorola Toto G4 Smartphone was used as a recording device through a "Toggle Recording App". This app's voice capturing service runs in the background of the recording device and trigers voice recordings with on and off hook signals of the Smartphone. The following workflow is used to perform the recordings:
+- Ask the participant to relax a bit and to make a phone call to the test executor (off-hook signal triggered);
+- Ask the participant to read out “The North Wind and the Sun”;
+- Depending on the constitution of the participant ask to read out “Tech. Engin. Computer applications in geography snippet”;
+- Start a spontaneous dialog with the participant, the test executor starts asking random questions about places of interest, local traffic, or personal interests if acceptable;
+- Test executor ends call by farewell (on-hook signal triggered).
+
+Data was labelled with scores on the Hoehn & Yahr, the UPDRS II part 5, and the UPDRS III part 18 scale.
+
+Note:
+- Voice recordings had a sample rate of 44.1 kHz and a bit depth of 16 Bit.
