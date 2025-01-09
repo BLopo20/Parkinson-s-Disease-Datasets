@@ -13,6 +13,7 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)|Motor fluctuations|Acc|Both wrists, both ankles, and waist|31 PD|
 |[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|Spatial memory, voice changes, gait, balance, and other motor symptoms|Acc, Gyro, magnetometer, pedometer, and microphone|N/A|9520|
 |[Parkinsons Telemonitoring](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)|Voice changes|Microphone|Placed 5 cm from the patient's lips|42 PD|
+|[REMAP](https://data.bris.ac.uk/data/dataset/2o94rzjooyzf42w850dqg0spfh)|Gait problems and postural instablity|Camera and Acc|Both wrists (Acc)|12 PD and 12 HC|
 |Parkinson Speech data set         |       |             |                                                           |                |
 |Parkinson's Disease Classification|       |             |                                                           |                |
 
@@ -27,6 +28,7 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[MJFF Levodopa Response Study](https://www.synapse.org/Synapse:syn20681023/wiki/594680)                                                       |2019|English |.txt                            |Private     |
 |[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)                                                                              |2015|English |.json and .m4a                  |Private     |
 |[Parkinsons Telemonitoring](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)                                                |2009|English |.csv                            |Public      |
+|[REMAP](https://data.bris.ac.uk/data/dataset/2o94rzjooyzf42w850dqg0spfh)                                                                      |2023|English |.xls and .csv                   |Private     |
 |Parkinson Speech data set                                                                                                                     |    |        |                                |            |
 |Parkinson's Disease Classification                                                                                                            |    |        |                                |            |
 
@@ -311,3 +313,50 @@ Units: The Jitter is in % and the Shimmer is in dB.
 Note: 
 - The voice signals were recorded at 24 kHz.
 
+
+## REMAP - REal-world Mobility Activities in Parkinson's disease
+
+Dataset: https://data.bris.ac.uk/data/dataset/2o94rzjooyzf42w850dqg0spfh
+
+Publication: [Morgan, C., Tonkin, E. L., Masullo, A., Jovan, F., Sikdar, A., Khaire, P., ... & Craddock, I. (2023). A multimodal dataset of real world mobility activities in Parkinson’s disease. Scientific data, 10(1), 918.](https://www.nature.com/articles/s41597-023-02663-5)
+
+### Description
+
+This dataset contains accelerometer and skeleton pose camera data of real world mobility activies of subjects with PD and healthy controls doing sit-to-stand transitions and turns in gait in a home setting, to evaluate mobility in PD. Furthermore, the dataset is manually labeled by human raters, contains data from when subjects with PD are on the ON and OFF medication states, and contains data collected in a home setting during free unscripted living and clinical assessments. 
+
+The demographic and clinical rating scores of the subjects in the PD and HC groups are shown in the following table. In this table, PIGD stands for Postural Instability and Gait Difficulties, TUG-test atnds for Timed-Up-and-Go test, PDQ-39 stands for Parkinson's Disease Questionnaire-39, RBD-SQ stands for REM sleep Behaviour Disorder Screening Questionnaire, PDSS stands for Parkinson's Disease Sleep Scale, and NMSS stands for Non-Motor Symptoms Scale for Parkinson's disease.
+
+|Characteristic                |PD group (n=12)                   |HC group (n=12)|
+|------------------------------|----------------------------------|---------------|
+|Age                           |61.25 ± 8.5                       |59.25 ± 13.4   |
+|Sex (Male/Female)             |7/5                               |3/9            |
+|Years since diagnosis         |8.2 ± 6.5                         |N/A            |
+|MDS-UPDRS total score         |44.8 ± 16.1 ON and 61.7 ± 29.2 OFF|6.8 ±4.8       |
+|MDS-UPDRS III sub score       |19.1 ± 10.4 ON and 36.8 ± 23.0 OFF|2.8 ± 1.9      |
+|PIGD sub score                |2.8 ± 1.9 ON and  4.3 ± 4.8 OFF   |0.1 ± 0.3      |
+|TUG-test time                 |8.3 ± 2.1 ON and 10.8 ± 5.1 OFF   |7.0 ± 1.5      |
+|PDQ-39                        |23.3 ± 14.2                       |               |
+|RBD-SQ                        |6.8 ± 3.3                         |               |
+|PDSS                          |118.9 ± 14.2                      |               |
+|NMSS                          |31.8 ± 17.4                       |               |
+|Hoehn & Yahr OFF medication   | 2.3 ± 0.8                        |               |
+|Levedopa equivalent daily dose|517.5 ± 395.7                     |               |
+
+Datacollection
+Subjects
+File
+
+Units:
+
+Note:
+- ddcdskh
+
+## How to access the data
+
+To access this dataset researcher need to complete the data request form in: https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG3zqTpiAq8NIrwJhYW1tgwFUMEE0MFVOQkhJVzNHREgwREdOMDhYSVRNTCQlQCN0PWcu
+
+However, some of the dataset is available in a public dataset: https://data.bris.ac.uk/data/dataset/21h9f9e30v9cl2fapjggz4q1x7
+
+Differences between datasets
+We present this controlled dataset available on application where there is more refined data (this is a sister dataset to the open dataset, REMAP Open, where the data is coarsened for anonymisation).
+We include pseudonymised and coarsened skeleton pose data in an open source dataset49, and additional data including accelerometry and uncoarsened skeleton pose data is published in a controlled dataset5
