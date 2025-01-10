@@ -1,4 +1,4 @@
-# Parkinson-Disease-Datasets
+# Parkinson's Disease Datasets
 
 This repository contains datasets collected using sensor devices or microphones that can be used for the evaluation of Parkinson's disease (PD) motor symptoms or voice changes. This repository contains two main tables describing characteristics of the datasets. The first table contains information about the data collection (symptom, sensor, device location, and subjects) and the second contains information about the year of creation of the dataset, the language, the file formats, and the availability. After these tables, each dataset is explored in more detail. In the end of this repository there is a section with the acronyms and abbreviations used.
 
