@@ -1,12 +1,11 @@
 # Parkinson-Disease-Datasets
 
-This repository contains datasets collected using sensor devices or microphones that can be used for the evaluation of Parkinson's disease (PD) motor symptoms or voice. This repository contains two main table describing characteristics of the datasets, the first containing information about the collection of the data and the other containing information like the size, language, and year of creation of the datasets. After these tables, the datasets are explored in more detail.
+This repository contains datasets collected using sensor devices or microphones that can be used for the evaluation of Parkinson's disease (PD) motor symptoms or voice changes. This repository contains two main tables describing characteristics of the datasets. The first table contains information about the data collection (symptom, sensor, device location, and subjects) and the second contains information about the year of creation of the dataset, the language, the file formats, and the availability. After these tables, each dataset is explored in more detail. In the end of this repository there is a section with the acronyms and abbreviations used.
 
-Unified Parkinson's Disease Rating Scale (UPDRS)
 
 |Dataset          |Symptom            |Sensor         |Device location                  |Subjects        |
 |-----------------|-------------------|---------------|---------------------------------|----------------|
-|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|Acc|Trunk, both thighs, both forearms| 17 HC and 17 PD|
+|[PD-BioStampRC21](https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0)|Tremor, gait, and other motor symptoms|Acc|Trunk, both thighs, both forearms| 17 PD and 17 HC|
 |[Daphnet](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)|FoG|Acc|Hip, ankle, and upper leg|10 PD|
 |[Oday](https://github.com/stanfordnmbl/imu-fog-detection/tree/main)|FoG|Acc and Gyro|Both feet, both ankles, both wrists,both thigs, lumbar, chest, and head|7 PD|
 |[PADS](https://physionet.org/content/parkinsons-disease-smartwatch/1.0.0/#files-panel)|Tremor|Acc and Gyro|Both wrists|276 PD, 79 HC, and 114 DD|
@@ -14,7 +13,7 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 |[mPower](https://www.synapse.org/Synapse:syn4993293/wiki/247859)|Spatial memory, voice changes, gait, balance, and other motor symptoms|Acc, Gyro, magnetometer, pedometer, and microphone|N/A|9520|
 |[Parkinsons Telemonitoring](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)|Voice changes|Microphone|Placed 5 cm from the patient's lips|42 PD|
 |[REMAP](https://data.bris.ac.uk/data/dataset/2o94rzjooyzf42w850dqg0spfh)|Gait problems and postural instablity|Camera and Acc|Both wrists (Acc)|12 PD and 12 HC|
-|[MDVR-KCL](https://zenodo.org/records/2867216)|Voice changes|Microphone|In direct proximity to the mouth|16 PD and 21 HC                |
+|[MDVR-KCL](https://zenodo.org/records/2867216)|Voice changes|Microphone|In direct proximity to the mouth|16 PD and 21 HC|
 
 
 
@@ -32,7 +31,6 @@ Unified Parkinson's Disease Rating Scale (UPDRS)
 
 
 ## PD-BioStampRC
-Year of creation: 2021 (Last update in 2022)
 
 Dataset: https://ieee-dataport.org/open-access/pd-biostamprc21-parkinsons-disease-accelerometry-dataset-five-wearable-sensor-study-0
 
@@ -66,6 +64,7 @@ Units: The accelerations is in g and the timstamps are in miliseconds and start 
 Note: 
 - The dataset has a sampling frequency of 31.25 Hz.
 - Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available. The mean values for other test are show in the paper, however the values for wach individual subject are not disclosed.
+
 
 ## Daphnet
 
@@ -386,3 +385,27 @@ Data was labelled with scores on the Hoehn & Yahr, the UPDRS II part 5, and the 
 
 Note:
 - Voice recordings had a sample rate of 44.1 kHz and a bit depth of 16 Bit.
+
+
+## Acronyms and Abbreviations
+
+- ACC: accelerometer;
+- ADL - Activities of daily living;
+- AHTD: At-Home Testing Device;
+- DBS: Deep brain stimulation;
+- DD: Differential diagnosis;
+- FoG: Freezing of Gait;
+- Gyro: Gyroscope;
+- HC: Healthy Control;
+- IMU: Inertial measuring unit;
+- N/A - Not applicable;
+- NMSS: Non-Motor Symptoms Scale for Parkinson's disease;
+- PD: Parkinson's Disease;
+- PDSS: Parkinson's Disease Sleep Scale;
+- PDQ: Parkinson's disease questionnaire;
+- PIGD: Postural Instability and Gait Difficulties;
+- RAS: Rythmic auditory stimulation;
+- RBD-SQ: REM sleep Behaviour Disorder Screening Questionnaire;
+- RGB: Red-green-blue;
+- TUG-test: Timed-Up-and-Go test;
+- UPDRS: Unified Parkinson's Disease Rating Scale.
