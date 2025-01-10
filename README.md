@@ -188,7 +188,7 @@ Publication:
 
 [Vergara-Diaz, G., Daneault, JF., Parisi, F. et al. Limb and trunk accelerometer data collected with wearable sensors from subjects with Parkinson’s disease. Sci Data 8, 47 (2021). https://doi.org/10.1038/s41597-021-00831-z](https://www.nature.com/articles/s41597-021-00831-z)
 
-## Description
+### Description
 
 This dataset provides data from 3 or 8 sensors collected in both clinical and home settings to evaluate whether mobile sensors can be used to track motor fluctuations caused by Levodopa treatment. These motor fluctuations include dyskinesia and depleting effectiveness at controlling symptoms.
 
@@ -221,7 +221,7 @@ Note:
 - Data from two subjects were excluded  because some of the motor tasks were modified according to issues encountered during the first assessment. Data from another subject was excluded due to a technical malfunction of the sensors that led to a substantial amount of missing data.
 - Subject 11_NYC swapped the positions of the GENEActiv and Pebble devices after the first session in the lab, on the first day. For this subject, that session ended at the timestamp 1433495025.7.
 
-## How to access the data
+### How to access the data
 
 The dataset is available in the Synapse platform. To access the dataset, researchers can follow the steps below:
 1. Register for a Synapse account;
@@ -261,7 +261,7 @@ The mPower app was made available through the Apple App Store only in the United
 
 Units: The acceleration is in m/s².
 
-## How to access the data
+### How to access the data
 
 The dataset is available in the Synapse platform. To access the dataset, researchers can follow the steps below:
 1. Register for a Synapse account;
