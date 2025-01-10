@@ -1,6 +1,6 @@
 # Parkinson's Disease Datasets
 
-This repository contains datasets collected using sensor devices or microphones that can be used for the evaluation of Parkinson's disease (PD) motor symptoms or voice changes. This repository contains two main tables describing characteristics of the datasets. The first table contains information about the data collection (symptom, sensor, device location, and subjects) and the second contains information about the year of creation of the dataset, the language, the file formats, and the availability. After these tables, each dataset is explored in more detail. In the end of this repository there is a section with the acronyms and abbreviations used.
+This repository contains datasets collected using sensor devices or microphones that can be used for the evaluation of Parkinson's disease (PD) motor symptoms or voice changes. This repository contains two main tables describing characteristics of the datasets. The first table contains information about the data collection (symptom, sensor, device location, and subjects) and the second contains information about the year of creation of the dataset, the language, the file formats, and the availability. After these tables, each dataset is explored in more detail. At the end of this repository, there is a section with the acronyms and abbreviations used.
 
 
 |Dataset          |Symptom            |Sensor         |Device location                  |Subjects        |
@@ -38,9 +38,9 @@ Cite: [Adams JL, Dinesh K, Snyder CW, Xiong M, Tarolli CG, Sharma S, Dorsey E, S
 
 ### Description
 
-This dataset provides accelerometer data, collected using the MC BioStamp RC, for studying activity, gait, tremor, and other motor symptoms in individuals wih PD. It also includes data from a healthy control (HC) group collected during the same collection protocol. The data collection started during a clinical evaluation using the UPDRS and was conducted for around two days afterwards in free-living conditions.
+This dataset provides accelerometer data, collected using the MC BioStamp RC, for studying activity, gait, tremor, and other motor symptoms in individuals with PD. It also includes data from a healthy control (HC) group collected during the same collection protocol. The data collection started during a clinical evaluation using the UPDRS and was conducted for around two days afterwards in free-living conditions.
 
-The demografic data of the subjects from both groups are shown in the following table.
+The demographic data of the subjects from both groups are shown in the following table.
 
 |Characteristic                                                       |PD group (n=17)|HC group (n=17)|
 |---------------------------------------------------------------------|------------------|------------|
@@ -56,14 +56,14 @@ The demografic data of the subjects from both groups are shown in the following 
 This dataset contains sensor data, UDRS-assessment-annotation data, and demographic and clinical assessment data.
 
 - Accelerometer sensor data: files corresponding to each sensor location for each patient, with each file containing a timestamp for each measurement and the corresponding acceleration values for each axis of the sensor;
-- Annotation file: Contains annotations of the duration of various clinical assessments, through the start and end timestamps, the body location of the seessment, and the medication status;
+- Annotation file: Contains annotations of the duration of various clinical assessments, through the start and end timestamps, the body location of the assessment, and the medication status;
 - Demographic and clinical assessment data: Contains demographic data and the scores for the rest tremor amplitude on the right and left upper and lower extremities during the ON and OFF medication states.
 
-Units: The accelerations is in g and the timstamps are in miliseconds and start counting from the from the instant of the earliest sensor recording.
+Units: The acceleration is in g and the timestamps are in milliseconds and start counting from the instant of the earliest sensor recording.
 
 Note: 
 - The dataset has a sampling frequency of 31.25 Hz.
-- Despite authors mentioning this dataset can be used to study activity, gait, tremor and other motor siymptoms, only the clinical assessment data for rest tremor is available. The mean values for other test are show in the paper, however the values for wach individual subject are not disclosed.
+- Despite authors mentioning this dataset can be used to study activity, gait, tremor, and other motor symptoms, only the clinical assessment data for rest tremor is available. The mean values for other tests are shown in the paper, however the values for each individual subject are not disclosed.
 
 
 ## Daphnet
@@ -74,14 +74,14 @@ Publication: [Bachlin, M., Plotnik, M., Roggen, D., Maidan, I., Hausdorff, J. M.
 
 ### Description
 
-This dataset provides accelerometer data, collected with en emphasis on generating freeze events, to recognize gait freeze. The data was collected in the laboratory with accelerometers placed just above the ankle, on the upper leg above te knee, and on the lower belt (hip). Patients performed the data collection during the OFF mediacation state, in the morning. Data was collected during two sessions, each of about 10 to 15 minutes, while the users performed three tasks:
+This dataset provides accelerometer data, collected with an emphasis on generating freeze events, to recognize gait freeze. The data was collected in the laboratory with accelerometers placed just above the ankle, on the upper leg above the knee, and on the lower belt (hip). Patients performed the data collection during the OFF medication state, in the morning. Data was collected during two sessions, each of about 10 to 15 minutes, while the users performed three tasks:
 - Walking in a straight line;
 - Random walking with numerous turns and initiated stops;
-- Activities of daily living (ADL) tasks, where users went into different rooms while fetching coffe, opening doors, etc.
+- Activities of daily living (ADL) tasks, where users went into different rooms while fetching coffee, opening doors, etc.
 
-For the first session the devices recorded all necessary data during the performance of the tasks. The second session was a repetition of the first but with rythmic auditory stimulation (RAS) feedback activated. RAS was shown to be effective at improving gait of PD patients and for this collection was only used during an actual or impeding freezing of gait (FOG) event.
+For the first session, the devices recorded all necessary data during the performance of the tasks. The second session was a repetition of the first but with rhythmic auditory stimulation (RAS) feedback activated. RAS was shown to be effective at improving the gait of PD patients and, for this collection, was only used during an actual or impeding freezing of gait (FOG) event.
 
-The data was collected from 10 idiophatic PD patients with a history of FOG that were able to walk unassisted during the OFF medication period. The demographic data of the subjects is shown in the following table.
+The data was collected from 10 idiopathic PD patients with a history of FOG that were able to walk unassisted during the OFF medication period. The demographic data of the subjects is shown in the following table.
 
 |Characteristic                               |PD group (n=10)|
 |---------------------------------------------|---------------|
@@ -95,12 +95,13 @@ Each file in the dataset contains a time sample and the corresponding sample dat
 - 1: No freeze (during the experiment, while patients can be standing, walking, or turning);
 - 2: Freeze.
 
-The annotations were obtaine by synchronizing the leg movement data with video recordings of the walking trials and having a physiotherapist take notes of relevant events during the sessions and identifying the start time, duration, and end time of freezing events. Moreover an assistant annotated the patients activity (e.g. standing, walking, turning, or freezing) during the recording session.
+The annotations were obtained by synchronizing the leg movement data with video recordings of the walking trials and having a physiotherapist take notes of relevant events during the sessions and identifying the start time, duration, and end time of freezing events. Moreover, an assistant annotated the patients activity (i.e. standing, walking, turning, or freezing) during the recording session.
 
-Units: The acceleration is in mg and the time of sample is in miliseconds.
+Units: The acceleration is in mg and the time of sample is in milliseconds.
 
 Note: 
-- Two patients (ID 02 and ID 08) reported fequent FOG episodes during the ON medication state and, consequently, performed the data collection on the ON state. 
+- Two patients (ID 02 and ID 08) reported frequent FOG episodes during the ON medication state and, consequently, performed the data collection in the ON state. 
+
 
 ## Oday
 
@@ -110,11 +111,11 @@ Publication: [O’Day, J., Lee, M., Seagers, K. et al. Assessing inertial measur
 
 ### Description
 
-This dataset provides accelerometer and gyroscope data for the detection of FoG. The data was collected while the subjects walked independently through a turning and barier course, designed to elicit FoG, while wearing the inertial measuring units (IMUs).
+This dataset provides accelerometer and gyroscope data for the detection of FoG. The data was collected while the subjects walked independently through a turning and barrier course designed to elicit FoG, while wearing the inertial measuring units (IMUs).
 
-Each walking trial consisted of two elipses and two figures of eight around tall barriers. Each subject performed 5 to 14 walking trials trough 2 to 6 visits, separated by up to 44 months. The walking trials were completed while the subjects were on the OFF medication status and off deep brain stimulation (DBS).
+Each walking trial consisted of two ellipses and two figures of eight around tall barriers. Each subject performed 5 to 14 walking trials through 2 to 6 visits, separated by up to 44 months. The walking trials were completed while the subjects were on the OFF medication status and off deep brain stimulation (DBS).
 
-From the 7 subjects, 4 wore 11 IMUs placed on the locations described in the first table in the begining of the repository (both feet, booth ankles , both wrists, both thighs, lumbar, chest, and head) and the remaining 3 subjects wore only 6 IMUs placed on both feet, both ankles, lumbar, and chest. The subjects demographic data is shown in the following table. 
+From the 7 subjects, 4 wore 11 IMUs placed on the locations described in the first table in the beginning of the repository (both feet, both ankles, both wrists, both thighs, lumbar, chest, and head) and the remaining 3 subjects wore only 6 IMUs placed on both feet, both ankles, lumbar, and chest. The subjects demographic data is shown in the following table. 
 
 |Characteristic                               |PD group (n=7)|
 |---------------------------------------------|--------------|
@@ -127,11 +128,12 @@ From the 7 subjects, 4 wore 11 IMUs placed on the locations described in the fir
 
 Each dafa file corresponds to a walking task of a subject and contains, in each sample, the time, the accelerometer and gyroscope values of each of the X, Y, and Z axes for every IMU the patient wore, and the FoG label. This label can be 0 for non FoG or 1 for FoG. To obtain the FoG label, a video of each walking task was synchronized with the IMU system and an experienced rater identified the start and end times of FoG events in the video recordings.
 
-Units: The acceleration is in m/s², the gyroscope is in rad/s and the time is in seconds.
+Units: The acceleration is in m/s², the gyroscope is in rad/s, and the time is in seconds.
 
 Note:
 - The dataset has a sampling frequency of 128 Hz.
 - The dataset also contains code to pre-process, train, and evaluate convolutional neural networks that identify FoG.
+
 
 ## PADS - Parkinson's Disease Smartwatch dataset
 
@@ -141,20 +143,20 @@ Publication: [Varghese, J., Brenner, A., Fujarski, M., van Alen, C.M., Plagwitz,
 
 ### Description
 
-This dataset provides accelerometer and gyroscope data collected using two smartwatches during clinical assessment of PD paatients, patients with other similar movement disorders and healthy controls. The data acquisition was divided into the completion of eletronic questionnaires and the active movemet assessment. For the active movement assessment the subjects wore the two smartwatches on their wrists and the sensors recorded data during the performance of 11 movement tasks desiged to provoke subtel changes in movement pathologies and triger tremor characteristics. Each of the following tasks was performed for 10 to 20 seconds depending on the task and is associated with a particular ype of tremor:
+This dataset provides accelerometer and gyroscope data collected using two smartwatches during clinical assessment of PD patients, patients with other similar movement disorders, and healthy controls. The data acquisition was divided into the completion of electronic questionnaires and the active movement assessment. For the active movement assessment, the subjects wore the two smartwatches on their wrists and the sensors recorded data during the performance of 11 movement tasks designed to provoke subtle changes in movement pathologies and trigger tremor characteristics. Each of the following tasks was performed for 10 to 20 seconds, depending on the task, and is associated with a particular type of tremor:
 - Resting with closed eyes while sitting (20 seconds) - resting tremor;
 - Resting while patient is calculating serial sevens (20 seconds) - resting tremor;
 - Lift and extend arms (10 seconds) - postural tremor;
 - Remain arms lifted (10 seconds) - postural tremor;
 - Hold 1 kg weight in each hand for 5 seconds - postural tremor;
-- Point index finger to the examiners lifted hand (10 seconds) - kinetic tremor;
+- Point index finger to the examiner's lifted hand (10 seconds) - kinetic tremor;
 - Drink from glass (10 seconds) - kinetic tremor;
 - Cross and extend both arms (10 seconds) - kinetic tremor;
 - Bring both index fingers to each other (10 seconds);
-- Tap own nose with index finger (10 seconds) - inetis tremor;
+- Tap own nose with index finger (10 seconds) - kinetic tremor;
 - Stomp on the ground while having the arms extended (20 seconds) - postural tremor.
 
-The differential diagnosis (DD) group includes subjects with Atypical Parkinsonism, Essential Tremor, Multiple Sclerosis, or other movement disorders. The demographic data of the three groups of subjects is shown in the following table.
+The differential diagnosis (DD) group includes subjects with atypical parkinsonism, essential tremor, multiple sclerosis, or other movement disorders. The demographic data of the three groups of subjects is shown in the following table.
 
 |Characteristic   |PD group (n=276)|HC group (n=79)|DD group (n=114)|
 |-----------------|----------------|---------------|----------------|
@@ -162,7 +164,7 @@ The differential diagnosis (DD) group includes subjects with Atypical Parkinsoni
 |Sex (Male/Female)|195/81          |29/50          |57/57           |
 |Age at diagnosis |58.26 ± 10.62   |N/A            |52.96 ± 16.52   |
 
-The following table contains the folders in the dataset, an example of the name and type of files in each folder and a description of each file.
+The following table contains the folders in the dataset, an example of the name and type of files in each folder, and a description of each file.
 
 |Folders      |Files name and type                                 |Description                                             |
 |-------------|----------------------------------------------------|--------------------------------------------------------|
@@ -188,15 +190,15 @@ Publication:
 
 ## Description
 
-This dataset provides data from 3 or 8 sensors collected both in clinical and home settings to evaluate wheter mobile sensors can be used to track motor fluctuations caused by Levodopa treatment. These motor fluctuations include dyskinesia and depleting effectiveness at controlling symptoms.
+This dataset provides data from 3 or 8 sensors collected in both clinical and home settings to evaluate whether mobile sensors can be used to track motor fluctuations caused by Levodopa treatment. These motor fluctuations include dyskinesia and depleting effectiveness at controlling symptoms.
 
-All study participants wore at least 3 sensors, a GeneActiv on the wrist of the most affected limb, a Pebble smartwatch on the wrist of the least affected limb, and a Samsung Galaxy Mini smartphone in a fanny pack worn in front of the waist. Of the 31 subjects, 19 also wore 5 Shimmer 3 sensors placed, with one of these sesors placed on each limb and on placed on the lower back. Subjects that wore the Shimmer 3 sensor performed a slightly expanded protocol.
+All study participants wore at least 3 sensors: a GeneActiv on the wrist of the most affected limb, a Pebble smartwatch on the wrist of the least affected limb, and a Samsung Galaxy Mini smartphone in a fanny pack worn in front of the waist. Of the 31 subjects, 19 also wore 5 Shimmer 3 sensors placed, with one of these sensors placed on each limb and one placed on the lower back. Subjects that wore the Shimmer 3 sensor performed a slightly expanded protocol.
 
-Data was collected on 4 days. On the first day, subjects were on the ON medication state and performed section III of the MDS-UPDRS in the lab. Afterwards, subjects performed several motor tasks, listed bellow. The performance of these tasks was repeated 6 to 8 times at 30 minute intervals. A clinician provided labels of symptom severity and/or presence for each task.
+Data was collected on 4 days. On the first day, subjects were on the ON medication state and performed section III of the MDS-UPDRS in the lab. Afterwards, subjects performed several motor tasks, listed below. The performance of these tasks was repeated 6 to 8 times at 30 minute intervals. A clinician provided labels of symptom severity and/or presence for each task.
 - Standing;
 - Walking in a straight line for 30s;
 - Walking in a straight line for 30s while counting backwards;
-- Walking upstairs and down stairs;
+- Walking up stairs and down stairs;
 - Walking through a narrow corridor;
 - Finger-to-nose for 15s (twice with each arm);
 - Alternating hand movements for 15s (twice with each arm);
@@ -208,20 +210,20 @@ Data was collected on 4 days. On the first day, subjects were on the ON medicati
 - Folding a towel three times;
 - Sitting.
 
-After the data collection on the first day, subjects were sent home wearing the sensors and were instructed to conduct their usual activities for the following two days, recording medication intake and doses and the time they went to sleep and woke up. Furthermore, subjects that wore the Shimmer sensor were asked to performe motor tasks corresponding to specific item of section III of the MDS-UPDRS every 30 minutes for a total of 7 times each day.
+After the data collection on the first day, subjects were sent home wearing the sensors and were instructed to conduct their usual activities for the following two days, recording medication intake and doses and the time they went to sleep and woke up. Furthermore, subjects that wore the Shimmer sensor were asked to perform motor tasks corresponding to specific items of section III of the MDS-UPDRS every 30 minutes for a total of 7 times each day.
 
-On the fourth day, patients came back to the lab on the OFF medication state and repeated the procedure that was performed on the first day. However, the first time subjects performed the motor tasks was on the OFF state and the following repetitions were on the ON state.
+On the fourth day, patients came back to the lab in the OFF medication state and repeated the procedure that was performed on the first day. However, the first time subjects performed the motor tasks was in the OFF state and the following repetitions were in the ON state.
 
 Units: The acceleration is in m/s².
 
 Note: 
 - The dataset has a sampling frequency of 50 Hz.
-- Data from two subjects were excluded  because some of the motor tasks were modified according to issues encountered during the first assessment. Data from another subject was excluded due to a technical malfunction of the sensors that lead to a substancial amount of missing data.
-- Subject 11_NYC swapped the positions of the GENEActiv and Pebble devices after the first session in the lab, on the first day. For this subject that session ended at the timestamp 1433495025.7.
+- Data from two subjects were excluded  because some of the motor tasks were modified according to issues encountered during the first assessment. Data from another subject was excluded due to a technical malfunction of the sensors that led to a substantial amount of missing data.
+- Subject 11_NYC swapped the positions of the GENEActiv and Pebble devices after the first session in the lab, on the first day. For this subject, that session ended at the timestamp 1433495025.7.
 
 ## How to access the data
 
-The dataset is available in the Synapse platform. To access the dataset researchers can follow the steps bellow:
+The dataset is available in the Synapse platform. To access the dataset, researchers can follow the steps below:
 1. Register for a Synapse account;
 2. Become a certified Synapse user;
 3. Have your user profile validated;
@@ -229,7 +231,7 @@ The dataset is available in the Synapse platform. To access the dataset research
 5. Agree to the data-specific conditions of use;
 6. Download the data.
 
-These steps are explained more indept in the "Accessing the Data" section of dataset link.
+These steps are explained more in depth in the "Accessing the Data" section of the dataset link.
 
 
 ## mPower
@@ -245,23 +247,23 @@ This database is based on a mobile application study that supplements traditiona
 The dataset contains data from the following seven study tasks:
 - Demographic: subjects respond to questions about general demographic topics and health history;
 - MDS-UPDRS: subjects respond to selected questions from the MDS-UPDRS scale;
-- PDQ-8: subjects reespond to a short form of a Parkinson's Disease Questionnaire;
+- PDQ-8: subjects respond to a short form of a Parkinson's Disease Questionnaire;
 - Memory: subjects complete a short visuospatial game related to the Corsi block tapping test;
 - Tapping: subjects repeatedly tap their phone's screen;
 - Voice: subjects record ambient noise lever for 5 seconds and, if the noise level is acceptable, record themselves saying "aaah" for 10 seconds;
 - Walking: subjects walk back and forth for 20 to 30 seconds with their smartphones in their pocket and, afterwards, stand still for another 20 to 30 seconds;
 
-The fisrt task is completed once when the subject first uses the app, the next two tasks are completed once a month, and the remaining tasks are completed three times a day. Subjects that self-identified as having a professional PD diagnosis were asked two performe the last four tasks immediatly before taking their medication, after taking their medication and at some other time. Subjects who did not self-identify has having a professional PD diagnosis could complete these tasks at any time during the day. 
+The first task is completed once when the subject first uses the app, the next two tasks are completed once a month, and the remaining tasks are completed three times a day. Subjects that self-identified as having a professional PD diagnosis were asked to perform the last four tasks immediately before taking their medication, after taking their medication, and at some other time. Subjects who did not self-identify as having a professional PD diagnosis could complete these tasks at any time during the day. 
 
-For the walking task, data is collected from accelerometer, pedometer and core motion readings, which include attitude, rotation rate, acceleration, gravity, and magnetic field.
+For the walking task, data is collected from accelerometer, pedometer, and core motion readings, which include attitude, rotation rate, acceleration, gravity, and magnetic field.
 
-The mPower app was made available through the Apple App Store only in the United States. Enrollment was open to individuals diagnosed with PD and anyone that wanted to participate as a healthy control. A total of 9,520 subjects consented to the study and agreed to share their data. Of these, 8,320 completed at least one survey or task. Of the 6,805 who completed the enrollment survey, 1,087 self-identified as having a professional diagnosis of PD and 5,581 did not, with 137 opting not to answer the question. Despite follow up being nonuniform across participants, due to the nature of the study, 898 participants collected data at least five separate days over the course of the first six months. 
+The mPower app was made available through the Apple App Store only in the United States. Enrollment was open to individuals diagnosed with PD and anyone that wanted to participate as a healthy control. A total of 9,520 subjects consented to the study and agreed to share their data. Of these, 8,320 completed at least one survey or task. Of the 6,805 who completed the enrollment survey, 1,087 self-identified as having a professional diagnosis of PD, and 5,581 did not, with 137 opting not to answer the question. Despite follow-up being nonuniform across participants, due to the nature of the study, 898 participants collected data at least five separate days over the course of the first six months. 
 
 Units: The acceleration is in m/s².
 
 ## How to access the data
 
-The dataset is available in the Synapse platform. To access the dataset researchers can follow the steps bellow:
+The dataset is available in the Synapse platform. To access the dataset, researchers can follow the steps below:
 1. Register for a Synapse account;
 2. Become a certified Synapse user;
 3. Have your user profile validated;
@@ -269,9 +271,9 @@ The dataset is available in the Synapse platform. To access the dataset research
 5. Agree to the data-specific conditions of use;
 6. Download the data.
 
-Due to copyright restrictions associated with the MDS-UPDRS and PDQ-8 surveys, adittional steps are necessary to access MDS-UPDRS survey and PDQ-8 survey sensor data.
+Due to copyright restrictions associated with the MDS-UPDRS and PDQ-8 surveys, additional steps are necessary to access MDS-UPDRS survey and PDQ-8 survey sensor data.
 
-These steps are explained more indept in the "Accessing the Data" section of dataset link.
+These steps are explained more in depth in the "Accessing the Data" section of the dataset link.
 
 
 ## Parkinsons Telemonitoring
@@ -284,9 +286,9 @@ Publication: [Athanasios Tsanas, Max A. Little, Patrick E. McSharry, Lorraine O.
 
 This database provides biomedical voice measurements from 42 subjects with early stage PD, recorded at the subject's house, for the remote monitoring of symptom progression.
 
-Data was collected with the Intel At-Home Testing Device (AHTD), a telemonitoring system that includes a high-quality microphone headset. An automatic alarm reminder prompts the patient to undertake the tasks to measure speech and voice on a weekly basis. The two types of audio recordings were sustained phonations and running speech tests in which the subject describes a photograph displayed on the AHTD's screen. On the day the data collection occured, six phonations tests were recorded, four at a comfortable pitch and loudness and two at twice thi initial loudness.
+Data was collected with the Intel At-Home Testing Device (AHTD), a telemonitoring system that includes a high-quality microphone headset. An automatic alarm reminder prompts the patient to undertake the tasks to measure speech and voice on a weekly basis. The two types of audio recordings were sustained phonations and running speech tests in which the subject describes a photograph displayed on the AHTD's screen. On the day the data collection occurred, six phonation tests were recorded, four at a comfortable pitch and loudness and two at twice the initial loudness.
 
-All subjects were off their medication during the six month duration of the study. The subjects performed a UPDRS evaluation at the begining of the study, after three months, and after six months. The subjects demographic data and UPDRS evaluation points are shown on the following table.
+All subjects were off their medication during the six month duration of the study. The subjects performed a UPDRS evaluation at the beginning of the study, after three months, and after six months. The subjects demographic data and UPDRS evaluation points are shown on the following table.
 
 |Characteristic                      |PD group (n=42)               |
 |------------------------------------|------------------------------|
@@ -319,9 +321,9 @@ Publication: [Morgan, C., Tonkin, E. L., Masullo, A., Jovan, F., Sikdar, A., Kha
 
 ### Description
 
-This dataset contains accelerometer and skeleton pose camera data of real world mobility activies of subjects with PD and healthy controls doing sit-to-stand transitions and turns in gait in a home setting, to evaluate mobility in PD. Furthermore, the dataset is manually labeled by human raters, contains data from when subjects with PD are on the ON and OFF medication states, and contains data collected in a home setting during free unscripted living and clinical assessments. 
+This dataset contains accelerometer and skeleton pose camera data of real world mobility activities of subjects with PD and healthy controls doing sit-to-stand transitions and turns in gait in a home setting to evaluate mobility in PD. Furthermore, the dataset is manually labeled by human raters, contains data from when subjects with PD are in the ON and OFF medication states, and contains data collected in a home setting during free unscripted living and clinical assessments. 
 
-The demographic and clinical rating scores of the subjects in the PD and HC groups are shown in the following table. In this table, PIGD stands for Postural Instability and Gait Difficulties, TUG-test atnds for Timed-Up-and-Go test, PDQ-39 stands for Parkinson's Disease Questionnaire-39, RBD-SQ stands for REM sleep Behaviour Disorder Screening Questionnaire, PDSS stands for Parkinson's Disease Sleep Scale, and NMSS stands for Non-Motor Symptoms Scale for Parkinson's disease.
+The demographic and clinical rating scores of the subjects in the PD and HC groups are shown in the following table. In this table, PIGD stands for Postural Instability and Gait Difficulties, TUG-test stands for Timed-Up-and-Go test, PDQ-39 stands for Parkinson's Disease Questionnaire-39, RBD-SQ stands for REM Sleep Behavior Disorder Screening Questionnaire, PDSS stands for Parkinson's Disease Sleep Scale, and NMSS stands for Non-Motor Symptoms Scale for Parkinson's disease.
 
 |Characteristic                |PD group (n=12)                   |HC group (n=12)|
 |------------------------------|----------------------------------|---------------|
@@ -339,23 +341,23 @@ The demographic and clinical rating scores of the subjects in the PD and HC grou
 |Hoehn & Yahr OFF medication   | 2.3 ± 0.8                        |               |
 |Levedopa equivalent daily dose|517.5 ± 395.7                     |               |
 
-The study setting was a house with wall-mounted cameras in communal rooms, where subjects stayed for 5 days and 4 nights. The subjects were encouraged to live as freely as possible, being allowed leave the house and bring to the house anything that helped them continue normal daily activities. Subjects with PD werew asked to withhold their dopaminergic medication and/or switch off deep brain stimulation, in order to be in the OFF medication state for a limited period of hours.
+The study setting was a house with wall-mounted cameras in communal rooms, where subjects stayed for 5 days and 4 nights. The subjects were encouraged to live as freely as possible, being allowed to leave the house and bring to the house anything that helped them continue normal daily activities. Subjects with PD were asked to withhold their dopaminergic medication and/or switch off deep brain stimulation in order to be in the OFF medication state for a limited period of hours.
 
-Subjects from the PD group underwent three clinical evaluations and subjects from the HC group underwent two clinical evaluations. The clinical evaluations concicted of the following tasks:
-- Performing the full motor sub score of the MDS-UPDRS (III);
-- Performing the timed-up-and-go (TUG) test twice;
-- Doing 20-metre walks (including three 180 turns), while the clinician evaluated their gait, at “normal”, “fast” and “slow” paces;
+Subjects from the PD group underwent three clinical evaluations and subjects from the HC group underwent two clinical evaluations. The clinical evaluations consisted of the following tasks:
+- Performing the full motor subscore of the MDS-UPDRS (III);
+- Performing the timed up and go (TUG) test twice;
+- Doing 20 meter walks (including three 180 degree turns) while the clinician evaluated their gait at “normal”, “fast” and “slow” paces;
 
-Subjects with PD were also completed the PDQ-39, the RBD-SQ, the PDSS, and the NMSS.
+Subjects with PD also completed the PDQ-39, the RBD-SQ, the PDSS, and the NMSS.
 
-Red-green-blue (RGB) video was captured from cameras for between 1 and 3 hours on the first 4 days for each subject. The times at which video was captured was prearranged with the subjects to ensure they were home while data was collected. The RGB clips were were transformed to 2D and 3D human pose data. This dataset also includes accelerometer data for sit-to-stand and turning in gait episodes and other activities labelled in the dataset (i.e. descending stairs, going up stairs, or standing still).
+Red-green-blue (RGB) video was captured from cameras for between 1 and 3 hours on the first 4 days for each subject. The times at which video was captured were prearranged with the subjects to ensure they were home while data was collected. The RGB clips were transformed into 2D and 3D human pose data. This dataset also includes accelerometer data for sit-to-stand and turning in gait episodes and other activities labelled in the dataset (i.e. descending stairs, going up stairs, or standing still).
 
 Note:
-- The accelerometer has a variable sampling rate of approximately 30 Hz and the video was 640x480 pixels in resolution and had an average frame rate of 30 frames per second.
+- The accelerometer has a variable sampling rate of approximately 30 Hz, and the video was 640x480 pixels in resolution and had an average frame rate of 30 frames per second.
 
-## How to access the data
+### How to access the data
 
-To access this dataset researcher need to complete the data request form in: https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG3zqTpiAq8NIrwJhYW1tgwFUMEE0MFVOQkhJVzNHREgwREdOMDhYSVRNTCQlQCN0PWcu
+To access this dataset, researchers need to complete the data request form in: https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG3zqTpiAq8NIrwJhYW1tgwFUMEE0MFVOQkhJVzNHREgwREdOMDhYSVRNTCQlQCN0PWcu
 
 However, some of the dataset is available in a public open dataset: https://data.bris.ac.uk/data/dataset/21h9f9e30v9cl2fapjggz4q1x7
 
@@ -374,10 +376,10 @@ Citation: Hagen Jaeger, Dhaval Trivedi, & Michael Stadtschnitzer. (2019). Mobile
 
 This dataset contains data from voice recordings during spontaneous dialogue and text reading of subjects with PD and HC. 
 
-A Motorola Toto G4 Smartphone was used as a recording device through a "Toggle Recording App". This app's voice capturing service runs in the background of the recording device and trigers voice recordings with on and off hook signals of the Smartphone. The following workflow is used to perform the recordings:
+A Motorola Moto G4 Smartphone was used as a recording device through a "Toggle Recording App". This app's voice capturing service runs in the background of the recording device and triggers voice recordings with on and off hook signals of the smartphone. The following workflow is used to perform the recordings:
 - Ask the participant to relax a bit and to make a phone call to the test executor (off-hook signal triggered);
 - Ask the participant to read out “The North Wind and the Sun”;
-- Depending on the constitution of the participant ask to read out “Tech. Engin. Computer applications in geography snippet”;
+- Depending on the constitution of the participant, ask to read out “Tech. Engin. Computer applications in geography snippet”;
 - Start a spontaneous dialog with the participant, the test executor starts asking random questions about places of interest, local traffic, or personal interests if acceptable;
 - Test executor ends call by farewell (on-hook signal triggered).
 
